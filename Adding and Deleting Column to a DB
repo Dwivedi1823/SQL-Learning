@@ -1,0 +1,15 @@
+#Adding a column to a DB
+
+ALTER TABLE existing_table_name
+ADD COLUMN new_column_name new_column_datatype;
+
+eg. ALTER TABLE test
+    ADD COLUMN phone_num VARCHAR(10);
+    
+ #Deleting a column from a DB
+ 
+ ALTER TABLE exising_table_name
+ DROP COLUMN column_name;
+ 
+ eg. ALTER TABLE test
+     DROP COLUMN phone_num;
